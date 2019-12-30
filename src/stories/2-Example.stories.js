@@ -7,7 +7,7 @@ import { withPropsOf } from '@utilitywarehouse/storybook-addon-prop-types';
 
 export default {
   title: 'Example',
-  decorators: [withKnobs, withPropsOf(Example)]
+  decorators: [withKnobs]
 };
 
 export const standard = () => (
