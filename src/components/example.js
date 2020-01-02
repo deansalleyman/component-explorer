@@ -26,8 +26,11 @@ function Example(props) {
 }
 
 Example.propTypes = {
+  /** Initial start counter */
   count: PropTypes.number,
+  /** CSS Style object */
   styles: PropTypes.object,
+  /** Button Text */
   buttonText: PropTypes.string
 }
 

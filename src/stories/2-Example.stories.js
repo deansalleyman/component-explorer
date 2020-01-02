@@ -2,12 +2,13 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import Example from '../components/example';
 import { withKnobs, text, boolean, number , color} from "@storybook/addon-knobs";
-import { withPropsOf } from '@utilitywarehouse/storybook-addon-prop-types';
+import { withResponsiveViews } from 'storybook-addon-responsive-views'
 
 
 export default {
   title: 'Example',
-  decorators: [withKnobs]
+  decorators: [withKnobs ]
+  //withResponsiveViews
 };
 
 export const standard = () => (
