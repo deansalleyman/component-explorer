@@ -7,7 +7,7 @@ import { withResponsiveViews } from 'storybook-addon-responsive-views'
 
 export default {
   title: 'Example',
-  decorators: [withKnobs ]
+  decorators: [withKnobs]
   //withResponsiveViews
 };
 
@@ -17,6 +17,15 @@ export const standard = () => (
           padding:"10px"
         }}></Example>
   );
+
+  export const darkView = () => (
+    <Example onClick={action('clicked')} styles={{
+        backgroundColor: "#2B376D",
+        color:"#FFFFFF",
+          padding:"10px"
+        }}></Example>
+  );
+
 
   export const startTen = () => (
     <Example start={10} styles={{
