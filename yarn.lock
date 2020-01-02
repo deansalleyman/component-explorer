@@ -1398,6 +1398,13 @@
     react-inspector "^3.0.2"
     uuid "^3.3.2"
 
+"@storybook/addon-console@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-console/-/addon-console-1.2.1.tgz#f338401661b4636118b13839848061e996d4e104"
+  integrity sha512-2iDbDTipWonvRpIqLLntfhCGvawFFvoG1xyErpyL7K/HRdQ1zzIvR1Qm83S7TK8Vg+RzZWm4wcDbxx7WOsFCNg==
+  dependencies:
+    global "^4.3.2"
+
 "@storybook/addon-info@^5.2.8":
   version "5.2.8"
   resolved "https://registry.yarnpkg.com/@storybook/addon-info/-/addon-info-5.2.8.tgz#bf29741c21c16c85f4a7007606e8afa3eb77965c"
@@ -1457,6 +1464,23 @@
     global "^4.3.2"
     prop-types "^15.7.2"
     qs "^6.6.0"
+
+"@storybook/addon-viewport@^5.2.8":
+  version "5.2.8"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-viewport/-/addon-viewport-5.2.8.tgz#b3bdbae1e240dcb19aed7a6c70bfad564f40d84b"
+  integrity sha512-IDZWFzQ4tOJFqytyIf3v8reQagM8FB0ZVRT9r2f9JAEJizwq+kA9ulV/keVSKS0CUU/Ie4WjXypUzhGNA2UtiA==
+  dependencies:
+    "@storybook/addons" "5.2.8"
+    "@storybook/api" "5.2.8"
+    "@storybook/client-logger" "5.2.8"
+    "@storybook/components" "5.2.8"
+    "@storybook/core-events" "5.2.8"
+    "@storybook/theming" "5.2.8"
+    core-js "^3.0.1"
+    global "^4.3.2"
+    memoizerific "^1.11.3"
+    prop-types "^15.7.2"
+    util-deprecate "^1.0.2"
 
 "@storybook/addons@5.2.8", "@storybook/addons@^5.0.0", "@storybook/addons@^5.2.8":
   version "5.2.8"

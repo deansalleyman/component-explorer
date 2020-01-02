@@ -2,13 +2,12 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import Example from '../components/example';
 import { withKnobs, text, boolean, number , color} from "@storybook/addon-knobs";
-import { withResponsiveViews } from 'storybook-addon-responsive-views'
+
 
 
 export default {
   title: 'Example',
   decorators: [withKnobs]
-  //withResponsiveViews
 };
 
 export const standard = () => (
@@ -37,7 +36,7 @@ export const standard = () => (
   export const extraText = () => {
     const buttonLabel = 'Button text';
     const buttonDefaultValue = 'Click me with extra long copy';
-    const buttonGroupId = 'GROUP-ID1';
+    const buttonGroupId = 'PANASKY';
 
     const buttonValue = text(buttonLabel, buttonDefaultValue, buttonGroupId);
 
@@ -51,10 +50,9 @@ export const standard = () => (
   export const changeStyling = () => {
     const label = 'Color';
     const defaultValue = '#33ACFF';
-    const groupId = 'GROUP-ID1';
+    const groupId = 'PANASKY';
     
     const backgroundColor = color(label, defaultValue, groupId);
-   // const backgroundColor = text("Background Color", "#33ACFF");
     const padding = number("Padding", 10);
 
     return  <Example onClick={action('clicked')} styles={{
