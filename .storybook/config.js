@@ -1,6 +1,9 @@
 import { withInfo } from '@storybook/addon-info';
 import { configure, addDecorator } from '@storybook/react';
 import requireContext from 'require-context.macro';
+import { initializeRTL } from 'storybook-addon-rtl';
+ 
+initializeRTL();
 
 const { withPropsTable } = require('storybook-addon-react-docgen');
 
