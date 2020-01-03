@@ -17,7 +17,7 @@ function Header(props) {
 
     Header.propTypes = {
         /** Image encoded via webpack in data base 64 format */
-        image: PropTypes.image
+        image: PropTypes.any
       }
     
     export default Header

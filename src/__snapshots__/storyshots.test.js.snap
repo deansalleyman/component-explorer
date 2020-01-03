@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Button Emoji 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  <span
+    aria-label="so cool"
+    role="img"
+  >
+    😀 😎 👍 💯
+  </span>
+</button>
+`;
+
+exports[`Storyshots Button Text 1`] = `
+<button
+  onClick={[Function]}
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "border": "1px solid #eee",
+      "borderRadius": 3,
+      "cursor": "pointer",
+      "fontSize": 15,
+      "margin": 10,
+      "padding": "3px 10px",
+    }
+  }
+  type="button"
+>
+  Hello Button
+</button>
+`;
+
+exports[`Storyshots Example Change Styling 1`] = `
+<div
+  className="css-1ycfegk-Example"
+>
+  <p>
+    You clicked 
+    0
+     times
+  </p>
+  <button
+    className="css-atnt8t-Example"
+    onClick={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Storyshots Example Dark View 1`] = `
+<div
+  className="css-6vddli-Example"
+>
+  <p>
+    You clicked 
+    0
+     times
+  </p>
+  <button
+    className="css-atnt8t-Example"
+    onClick={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Storyshots Example Extra Text 1`] = `
+<div
+  className="css-1ycfegk-Example"
+>
+  <p>
+    You clicked 
+    0
+     times
+  </p>
+  <button
+    className="css-atnt8t-Example"
+    onClick={[Function]}
+  >
+    Click me with extra long copy
+  </button>
+</div>
+`;
+
+exports[`Storyshots Example Standard 1`] = `
+<div
+  className="css-1ycfegk-Example"
+>
+  <p>
+    You clicked 
+    0
+     times
+  </p>
+  <button
+    className="css-atnt8t-Example"
+    onClick={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Storyshots Example Start Ten 1`] = `
+<div
+  className="css-1ycfegk-Example"
+>
+  <p>
+    You clicked 
+    10
+     times
+  </p>
+  <button
+    className="css-atnt8t-Example"
+    onClick={[Function]}
+  >
+    Click me
+  </button>
+</div>
+`;
