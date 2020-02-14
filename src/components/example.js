@@ -18,7 +18,7 @@ function Example(props) {
     <div 
       css={props.styles || {}}>
       <p>You clicked {count} times</p>
-      <button onClick={() => setCount(count + 1)} css={{width: '80px'}}>
+      <button onClick={() => setCount(count + 1)} css={{width: '810px'}}>
         {props.buttonText || 'Click me'}
       </button>
     </div>

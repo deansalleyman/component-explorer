@@ -56,7 +56,7 @@ export const standard = () => (
     const padding = number("Padding", 10);
 
     return  <Example onClick={action('clicked')} styles={{
-        backgroundColor: backgroundColor,
+          backgroundColor: backgroundColor,
           padding:`${padding}px`
         }}></Example>
   };
