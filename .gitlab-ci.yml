@@ -1,8 +1,7 @@
 pages:
     stage: deploy
-    before_script:
-      - npm install
     script:
+      - npm install
       - npm run build-storybook
       - mkdir .public
       - cp -r * .public
