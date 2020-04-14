@@ -1,6 +1,5 @@
 pages:
     stage: deploy
-    image: agenthunt/node-vpnc:latest
     script:
       - npm install
       - npm run build-storybook
